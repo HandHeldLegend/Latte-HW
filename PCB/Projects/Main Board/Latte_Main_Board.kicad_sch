@@ -11702,7 +11702,7 @@
 	)
 	(global_label "LRA_R-"
 		(shape input)
-		(at 302.26 31.75 0)
+		(at 302.26 34.29 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11712,7 +11712,7 @@
 		)
 		(uuid "00b24125-b69d-46cf-82ea-a7a6f187e49a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.4419 31.75 0)
+			(at 312.4419 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11944,7 +11944,7 @@
 	)
 	(global_label "LRA_R+"
 		(shape input)
-		(at 302.26 34.29 0)
+		(at 302.26 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11954,7 +11954,7 @@
 		)
 		(uuid "1004499b-e41e-4070-a116-0baac0a58d53")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 312.4419 34.29 0)
+			(at 312.4419 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
