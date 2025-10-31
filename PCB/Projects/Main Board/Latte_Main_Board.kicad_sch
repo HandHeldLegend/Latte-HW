@@ -18578,7 +18578,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C784817"
+		(property "LCSC" "C126672"
 			(at 453.39 156.21 0)
 			(effects
 				(font
@@ -18596,7 +18596,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LSM6DSRTR"
+		(property "MPN" "LSM6DSLTR"
 			(at 453.39 156.21 0)
 			(effects
 				(font
@@ -23007,7 +23007,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C784817"
+		(property "LCSC" "C126672"
 			(at 453.39 116.84 0)
 			(effects
 				(font
@@ -23025,7 +23025,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LSM6DSRTR"
+		(property "MPN" "LSM6DSLTR"
 			(at 453.39 116.84 0)
 			(effects
 				(font
