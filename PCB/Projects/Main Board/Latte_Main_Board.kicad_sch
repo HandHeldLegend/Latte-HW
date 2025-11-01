@@ -6710,6 +6710,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 -27.94) (xy 50.8 -27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "025af3c2-490c-400f-ba64-b3e475b3b47e")
+	)
+	(wire
+		(pts
 			(xy 171.45 80.01) (xy 171.45 82.55)
 		)
 		(stroke
@@ -6780,7 +6790,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 -22.86) (xy 55.88 -22.86)
+			(xy 62.23 -22.86) (xy 60.96 -22.86)
 		)
 		(stroke
 			(width 0)
@@ -6950,7 +6960,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 -17.78) (xy 55.88 -17.78)
+			(xy 62.23 -17.78) (xy 60.96 -17.78)
 		)
 		(stroke
 			(width 0)
@@ -7060,7 +7070,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 -12.7) (xy 55.88 -12.7)
+			(xy 62.23 -12.7) (xy 60.96 -12.7)
 		)
 		(stroke
 			(width 0)
@@ -7107,6 +7117,16 @@
 			(type default)
 		)
 		(uuid "14c5857e-29fd-42be-8484-41cb419cfb4a")
+	)
+	(wire
+		(pts
+			(xy 13.97 -22.86) (xy 15.24 -22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "157fea2a-3743-4ad5-9e06-ebc04f4d8754")
 	)
 	(wire
 		(pts
@@ -7227,6 +7247,16 @@
 			(type default)
 		)
 		(uuid "1cd71d70-64ea-4745-937a-834908ae52d2")
+	)
+	(wire
+		(pts
+			(xy 106.68 252.73) (xy 106.68 251.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d58c965-daa8-491f-8612-817f8b1ea502")
 	)
 	(wire
 		(pts
@@ -8770,6 +8800,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 -12.7) (xy 50.8 -12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e228817-3a87-4bbe-8f15-ac4c274d93ab")
+	)
+	(wire
+		(pts
 			(xy 294.64 77.47) (xy 292.1 77.47)
 		)
 		(stroke
@@ -8807,6 +8847,16 @@
 			(type default)
 		)
 		(uuid "6eedb5bb-c81b-4a32-bf4b-6e8fe7a29bac")
+	)
+	(wire
+		(pts
+			(xy 13.97 -27.94) (xy 15.24 -27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f1490d8-549b-4ac4-a23b-fc09dca8a173")
 	)
 	(wire
 		(pts
@@ -9347,6 +9397,16 @@
 			(type default)
 		)
 		(uuid "8663ccfd-dc22-4f79-858e-e71593099fb9")
+	)
+	(wire
+		(pts
+			(xy 49.53 -22.86) (xy 50.8 -22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8666ab84-7c53-46ac-aed4-b6f29518675c")
 	)
 	(polyline
 		(pts
@@ -11030,6 +11090,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 -17.78) (xy 50.8 -17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded8f559-53f3-4915-8110-9c74fec8efb6")
+	)
+	(wire
+		(pts
 			(xy 158.75 220.98) (xy 153.67 220.98)
 		)
 		(stroke
@@ -11040,7 +11110,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 -27.94) (xy 55.88 -27.94)
+			(xy 62.23 -27.94) (xy 60.96 -27.94)
 		)
 		(stroke
 			(width 0)
@@ -12274,7 +12344,7 @@
 	)
 	(global_label "MINUS_BTN"
 		(shape input)
-		(at 57.15 -17.78 0)
+		(at 62.23 -17.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12284,7 +12354,7 @@
 		)
 		(uuid "29734b71-7f98-4a97-9312-93c3b11ba859")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 70.5976 -17.78 0)
+			(at 75.6776 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12560,7 +12630,7 @@
 	)
 	(global_label "PLUS_BTN"
 		(shape input)
-		(at 57.15 -12.7 0)
+		(at 62.23 -12.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12570,7 +12640,7 @@
 		)
 		(uuid "537a9588-c5a9-431d-a709-1f1fabfa49fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.509 -12.7 0)
+			(at 74.589 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13286,7 +13356,7 @@
 	)
 	(global_label "HOME_BTN"
 		(shape input)
-		(at 57.15 -22.86 0)
+		(at 62.23 -22.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13296,7 +13366,7 @@
 		)
 		(uuid "96e55114-61dc-4279-bc71-22783b5fae20")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.9323 -22.86 0)
+			(at 75.0123 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14188,7 +14258,7 @@
 	)
 	(global_label "CAPTURE_BTN"
 		(shape input)
-		(at 57.15 -27.94 0)
+		(at 62.23 -27.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14198,7 +14268,7 @@
 		)
 		(uuid "e0a60921-148f-4417-9e5d-d4b199a39b37")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.0166 -27.94 0)
+			(at 78.0966 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15024,7 +15094,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 50.8 -22.86 0)
+		(at 55.88 -22.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15032,7 +15102,7 @@
 		(dnp no)
 		(uuid "0167d1f3-0d8b-4618-85ae-f0ad0c9c0355")
 		(property "Reference" "SW6"
-			(at 48.514 -25.4 0)
+			(at 53.594 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15040,7 +15110,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 55.626 -25.4 0)
+			(at 60.706 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15048,7 +15118,7 @@
 			)
 		)
 		(property "Footprint" "hhl:KSC-TE"
-			(at 50.8 -27.94 0)
+			(at 55.88 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15057,7 +15127,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C221725.pdf"
-			(at 50.8 -27.94 0)
+			(at 55.88 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15066,7 +15136,7 @@
 			)
 		)
 		(property "Description" "Soft actuator, 3.5mm height tactile button IP67"
-			(at 50.8 -22.86 0)
+			(at 55.88 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15075,7 +15145,7 @@
 			)
 		)
 		(property "MPN" "KSC201J LFS"
-			(at 50.8 -22.86 0)
+			(at 55.88 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18835,6 +18905,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 106.68 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2831440e-38c0-4c2f-85ca-a35fdedbaf77")
+		(property "Reference" "#PWR090"
+			(at 106.68 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 106.68 258.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 106.68 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3d9c39d1-ca6e-49c5-a553-1db01c042e9c")
+		)
+		(instances
+			(project "Latte_Main_Board"
+				(path "/e225eb3e-e7d7-4a30-a02a-c99a852af5d1"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 274.32 62.23 270)
 		(unit 1)
@@ -20368,7 +20503,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 50.8 -27.94 0)
+		(at 55.88 -27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20376,7 +20511,7 @@
 		(dnp no)
 		(uuid "3c4f562b-484a-4971-bcfc-0145955611f2")
 		(property "Reference" "SW5"
-			(at 48.514 -30.48 0)
+			(at 53.594 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20384,7 +20519,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 55.626 -30.48 0)
+			(at 60.706 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20392,7 +20527,7 @@
 			)
 		)
 		(property "Footprint" "hhl:KSC-TE"
-			(at 50.8 -33.02 0)
+			(at 55.88 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20401,7 +20536,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C221725.pdf"
-			(at 50.8 -33.02 0)
+			(at 55.88 -33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20410,7 +20545,7 @@
 			)
 		)
 		(property "Description" "Soft actuator, 3.5mm height tactile button IP67"
-			(at 50.8 -27.94 0)
+			(at 55.88 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20419,7 +20554,7 @@
 			)
 		)
 		(property "MPN" "KSC201J LFS"
-			(at 50.8 -27.94 0)
+			(at 55.88 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22417,6 +22552,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 49.53 -22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4f8cf502-8ad0-4994-be71-4f6eeb61d57f")
+		(property "Reference" "#PWR081"
+			(at 43.18 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.196 -22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52b537c7-9f68-4015-88e3-f678037c1a31")
+		)
+		(instances
+			(project "Latte_Main_Board"
+				(path "/e225eb3e-e7d7-4a30-a02a-c99a852af5d1"
+					(reference "#PWR081")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "progcc_v3:SK6805-EC-10")
 		(at 351.79 242.57 0)
 		(unit 1)
@@ -22816,7 +23016,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 50.8 -12.7 0)
+		(at 55.88 -12.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22824,7 +23024,7 @@
 		(dnp no)
 		(uuid "559facd2-7f8a-4116-95f5-6d3aa337d4ab")
 		(property "Reference" "SW8"
-			(at 48.514 -15.24 0)
+			(at 53.594 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22832,7 +23032,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 55.626 -15.24 0)
+			(at 60.706 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22840,7 +23040,7 @@
 			)
 		)
 		(property "Footprint" "hhl:KSC-TE"
-			(at 50.8 -17.78 0)
+			(at 55.88 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22849,7 +23049,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C221725.pdf"
-			(at 50.8 -17.78 0)
+			(at 55.88 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22858,7 +23058,7 @@
 			)
 		)
 		(property "Description" "Soft actuator, 3.5mm height tactile button IP67"
-			(at 50.8 -12.7 0)
+			(at 55.88 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22867,7 +23067,7 @@
 			)
 		)
 		(property "MPN" "KSC201J LFS"
-			(at 50.8 -12.7 0)
+			(at 55.88 -12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24207,6 +24407,71 @@
 			(project "PGS_Main_Board"
 				(path "/e225eb3e-e7d7-4a30-a02a-c99a852af5d1"
 					(reference "R26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 13.97 -27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "661e5d74-6975-4e4f-820e-7d6fe1d9cd55")
+		(property "Reference" "#PWR089"
+			(at 7.62 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 8.636 -27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.97 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.97 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 13.97 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8f07871-12b9-48be-81ca-bdc9adedae3e")
+		)
+		(instances
+			(project "Latte_Main_Board"
+				(path "/e225eb3e-e7d7-4a30-a02a-c99a852af5d1"
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -28568,6 +28833,136 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 49.53 -27.94 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0d156c5-cbad-4169-8f54-f26aceb52455")
+		(property "Reference" "#PWR073"
+			(at 43.18 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.196 -27.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae064df6-8c04-4aef-8b4d-27c77e67c02e")
+		)
+		(instances
+			(project "Latte_Main_Board"
+				(path "/e225eb3e-e7d7-4a30-a02a-c99a852af5d1"
+					(reference "#PWR073")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 13.97 -22.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0e1b421-4857-4905-ac49-8ab89008f754")
+		(property "Reference" "#PWR088"
+			(at 7.62 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 8.636 -22.86 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 13.97 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 13.97 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 13.97 -22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0832e290-fa90-4d9b-866d-458db8237565")
+		)
+		(instances
+			(project "Latte_Main_Board"
+				(path "/e225eb3e-e7d7-4a30-a02a-c99a852af5d1"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 267.97 45.72 0)
 		(unit 1)
@@ -29220,6 +29615,71 @@
 			(project "PGS_Main_Board"
 				(path "/e225eb3e-e7d7-4a30-a02a-c99a852af5d1"
 					(reference "#PWR059")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 -12.7 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac5bbfc8-e25f-4896-8db2-c7bb625633d5")
+		(property "Reference" "#PWR087"
+			(at 43.18 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.196 -12.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6aaa49b2-3655-446a-a207-dedee03d1c3a")
+		)
+		(instances
+			(project "Latte_Main_Board"
+				(path "/e225eb3e-e7d7-4a30-a02a-c99a852af5d1"
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -32535,7 +32995,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 50.8 -17.78 0)
+		(at 55.88 -17.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32543,7 +33003,7 @@
 		(dnp no)
 		(uuid "db11559d-254c-4382-b30c-26da0610550a")
 		(property "Reference" "SW7"
-			(at 48.514 -20.32 0)
+			(at 53.594 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32551,7 +33011,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 55.626 -20.32 0)
+			(at 60.706 -20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32559,7 +33019,7 @@
 			)
 		)
 		(property "Footprint" "hhl:KSC-TE"
-			(at 50.8 -22.86 0)
+			(at 55.88 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32568,7 +33028,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C221725.pdf"
-			(at 50.8 -22.86 0)
+			(at 55.88 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32577,7 +33037,7 @@
 			)
 		)
 		(property "Description" "Soft actuator, 3.5mm height tactile button IP67"
-			(at 50.8 -17.78 0)
+			(at 55.88 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32586,7 +33046,7 @@
 			)
 		)
 		(property "MPN" "KSC201J LFS"
-			(at 50.8 -17.78 0)
+			(at 55.88 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34587,6 +35047,71 @@
 			(project "PGS_Main_Board"
 				(path "/e225eb3e-e7d7-4a30-a02a-c99a852af5d1"
 					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 49.53 -17.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fca05dd5-2de7-45f3-9d6c-8e1db37229cf")
+		(property "Reference" "#PWR083"
+			(at 43.18 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 44.196 -17.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 49.53 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a80e823a-e1a6-4928-82ff-e2cf4abaa6ce")
+		)
+		(instances
+			(project "Latte_Main_Board"
+				(path "/e225eb3e-e7d7-4a30-a02a-c99a852af5d1"
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
