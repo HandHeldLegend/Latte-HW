@@ -56,23 +56,9 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 0.2,
-          "via_gap": 0.35,
-          "width": 0.3425
         }
       ],
-      "drc_exclusions": [
-        [
-          "lib_footprint_mismatch|94967800|46634400|4f46f1e5-a879-4502-9ca9-51efefb83bdf|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "starved_thermal|65491400|44780200|7e4ddac4-2664-4ee3-8813-da2075d8159b|0e0a3f8f-ccea-4255-bbbe-3edcb8fe7fc5|B.Cu",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -86,7 +72,7 @@
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "ignore",
+        "drill_out_of_range": "error",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
@@ -104,7 +90,7 @@
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
-        "malformed_courtyard": "ignore",
+        "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
         "missing_courtyard": "ignore",
@@ -121,7 +107,7 @@
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
-        "text_height": "ignore",
+        "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
         "through_hole_pad_without_hole": "error",
@@ -138,17 +124,17 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.1,
+        "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.15,
+        "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.15,
+        "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.75,
+        "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.0,
@@ -161,7 +147,7 @@
         {
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": false,
+          "td_onsmdpad": true,
           "td_ontrackend": false,
           "td_onvia": true
         }
@@ -203,10 +189,7 @@
       ],
       "track_widths": [
         0.0,
-        0.15,
-        0.2,
-        0.45,
-        0.65
+        0.2
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -231,7 +214,7 @@
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 1.0
+          "spacing": 0.6
         }
       },
       "via_dimensions": [
@@ -241,15 +224,7 @@
         },
         {
           "diameter": 0.65,
-          "drill": 0.3
-        },
-        {
-          "diameter": 1.0,
-          "drill": 0.3
-        },
-        {
-          "diameter": 1.25,
-          "drill": 0.3
+          "drill": 0.35
         }
       ],
       "zones_allow_external_fillets": false
@@ -496,14 +471,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Latte_Main_Board.kicad_pro",
+    "filename": "FPC_Trigger_Board.kicad_pro",
     "version": 3
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -518,24 +493,6 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
-      },
-      {
-        "bus_width": 12,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.2,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.3425,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "USB",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
       }
     ],
     "meta": {
@@ -543,26 +500,17 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "USB",
-        "pattern": "D+"
-      },
-      {
-        "netclass": "USB",
-        "pattern": "D-"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../../Production/Main Board/gerbers/",
-      "pos_files": "../../Production/Main Board/position/",
+      "plot": "../../Production/Trigger Board/gerbers/",
+      "pos_files": "../../Production/Trigger Board/position/",
       "specctra_dsn": "",
-      "step": "../../../3D/Latte_Main_Board.step",
+      "step": "PGS_Trigger_Board.step",
       "svg": "",
       "vrml": ""
     },
@@ -570,7 +518,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "${PROJECTNAME}.csv",
+    "bom_export_filename": "..\\..\\Production\\Trigger Board\\PGS_Trigger_Board.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -610,10 +558,34 @@
           "show": false
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Footprint",
           "name": "Footprint",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Confirmed",
+          "name": "Confirmed",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JLCPN",
+          "name": "JLCPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Link",
+          "name": "Link",
+          "show": false
         },
         {
           "group_by": false,
@@ -628,106 +600,16 @@
           "show": true
         },
         {
-          "group_by": true,
-          "label": "DNP",
-          "name": "${DNP}",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Availability",
-          "name": "Availability",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Check_prices",
-          "name": "Check_prices",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Confirmed",
-          "name": "Confirmed",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Group",
-          "name": "Group",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Height",
-          "name": "Height",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "JLCPN",
-          "name": "JLCPN",
-          "show": false
-        },
-        {
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
         },
         {
-          "group_by": false,
-          "label": "Link",
-          "name": "Link",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MANUFACTURER",
-          "name": "MANUFACTURER",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MAXIMUM_PACKAGE_HEIGHT",
-          "name": "MAXIMUM_PACKAGE_HEIGHT",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "MF",
-          "name": "MF",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Manufacturer_Name",
-          "name": "Manufacturer_Name",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Part Number",
-          "name": "Mouser Part Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Mouser Price/Stock",
-          "name": "Mouser Price/Stock",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "PARTREV",
-          "name": "PARTREV",
-          "show": false
+          "group_by": true,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": true
         },
         {
           "group_by": false,
@@ -743,26 +625,8 @@
         },
         {
           "group_by": false,
-          "label": "STANDARD",
-          "name": "STANDARD",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "SnapEDA_Link",
-          "name": "SnapEDA_Link",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Description",
           "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Reviewed",
-          "name": "Reviewed",
           "show": false
         }
       ],
@@ -771,7 +635,7 @@
       "include_excluded_from_bom": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reviewed"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -815,7 +679,7 @@
   },
   "sheets": [
     [
-      "e225eb3e-e7d7-4a30-a02a-c99a852af5d1",
+      "0ea62352-365c-4f6f-aa9e-f2b7bb50112a",
       "Root"
     ]
   ],
