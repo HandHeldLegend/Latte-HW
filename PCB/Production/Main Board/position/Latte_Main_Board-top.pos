@@ -1,0 +1,56 @@
+### Footprint positions - created on 2025-11-03T16:20:50-0800 ###
+### Printed by KiCad version 9.0.6-rc2
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val             Package                               PosX       PosY       Rot  Side
+C3        100n            C_0201_0603Metric                 107.6500   -46.6600   90.0000  top
+C4        100n            C_0201_0603Metric                  96.6500   -56.6600   90.0000  top
+C5        100n            C_0201_0603Metric                 118.6500   -57.5600  -90.0000  top
+C6        100n            C_0201_0603Metric                 107.6500   -66.6600   90.0000  top
+C7        100n            C_0201_0603Metric                  49.6400   -49.0900   90.0000  top
+C8        100n            C_0201_0603Metric                  55.2500   -53.7600  180.0000  top
+C17       100n            C_0201_0603Metric                  40.4200   -53.7500  180.0000  top
+C18       100n            C_0201_0603Metric                  44.7300   -63.3300  -90.0000  top
+C24       100nF           C_0201_0603Metric                  57.2262   -34.9504    0.0000  top
+C25       100nF           C_0201_0603Metric                  93.8936   -33.9344  180.0000  top
+C26       100nF           C_0201_0603Metric                  61.3918   -33.1470  180.0000  top
+C27       100nF           C_0201_0603Metric                  89.7382   -34.4424    0.0000  top
+J8        Conn_01x04_Pin  PinHeader_1x04_P2.00mm_Vertical    91.9678   -46.6344   90.0000  top
+R15       1k              R_0201_0603Metric                  76.2000   -31.6484   90.0000  top
+R17       100R            R_0201_0603Metric                  74.3204   -39.5478  180.0000  top
+R18       100R            R_0201_0603Metric                  79.8800   -40.7000    0.0000  top
+R19       100R            R_0201_0603Metric                  65.0800   -31.3000    0.0000  top
+R20       100R            R_0201_0603Metric                  87.2000   -31.1600    0.0000  top
+RGB1      SK6805-EC-10    SK6805-EC-10                      105.1966   -48.9614    0.0000  top
+RGB2      SK6805-EC-10    SK6805-EC-10                      116.1966   -58.9614    0.0000  top
+RGB3      SK6805-EC-10    SK6805-EC-10                      105.1966   -68.9614    0.0000  top
+RGB4      SK6805-EC-10    SK6805-EC-10                       94.1966   -58.9614    0.0000  top
+RGB5      SK6805-EC-10    SK6805-EC-10                       81.7827   -50.1650  180.0000  top
+RGB6      SK6805-EC-10    SK6805-EC-10                       78.0327   -50.1650  180.0000  top
+RGB7      SK6805-EC-10    SK6805-EC-10                       74.2827   -50.1650  180.0000  top
+RGB8      SK6805-EC-10    SK6805-EC-10                       70.5327   -50.1650  180.0000  top
+RGB9      SK6805-EC-10    SK6805-EC-10                       47.1838   -51.3935    0.0000  top
+RGB10     SK6805-EC-10    SK6805-EC-10                       42.3652   -56.2114    0.0000  top
+RGB11     SK6805-EC-10    SK6805-EC-10                       47.1831   -61.0300    0.0000  top
+RGB12     SK6805-EC-10    SK6805-EC-10                       52.0017   -56.2122    0.0000  top
+SW1       SW_Push         KSC-TE                             76.1900   -65.5400    0.0000  top
+SW2       SW_Push         KSC-TE                             76.1900   -27.5400    0.0000  top
+SW5       SW_Push         KSC-TE                             69.1900   -37.5400    0.0000  top
+SW6       SW_Push         KSC-TE                             83.1900   -37.5400    0.0000  top
+SW7       SW_Push         KSC-TE                             62.1900   -27.5400    0.0000  top
+SW8       SW_Push         KSC-TE                             90.1900   -27.5400    0.0000  top
+T1        ~               PinHeader_1x01_P1.00mm_Vertical    30.4038   -69.4436    0.0000  top
+T2        ~               PinHeader_1x01_P1.00mm_Vertical    28.0162   -69.4436    0.0000  top
+T3        ~               PinHeader_1x01_P1.00mm_Vertical   125.2474   -69.1134    0.0000  top
+T4        ~               PinHeader_1x01_P1.00mm_Vertical   122.8852   -69.1134    0.0000  top
+U1        HAL4395         SOT-23-5L                         105.1966   -46.2114    0.0000  top
+U3        HAL4395         SOT-23-5L                          94.1966   -56.2114    0.0000  top
+U4        ST_LSM6         LGA14                              60.3800   -35.7200    0.0000  top
+U5        ST_LSM6         LGA14                              92.3120   -35.9200    0.0000  top
+U6        HAL4395         SOT-23-5L                         116.1966   -56.2114    0.0000  top
+U7        HAL4395         SOT-23-5L                         105.1966   -66.2114    0.0000  top
+U8        HAL4395         SOT-23-5L                          47.1838   -48.6435    0.0000  top
+U9        HAL4395         SOT-23-5L                          54.7517   -56.2122   90.0000  top
+U10       HAL4395         SOT-23-5L                          39.6152   -56.2114   90.0000  top
+U11       HAL4395         SOT-23-5L                          47.1831   -63.7800  180.0000  top
+## End
