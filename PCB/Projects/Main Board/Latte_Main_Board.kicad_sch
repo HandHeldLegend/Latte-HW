@@ -15144,12 +15144,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16V 100nF X7R ±5% 0402 Ceramic Capacitors RoHS"
-			(at 62.23 99.06 0)
+		(property "Description" "10V 4.7uF X5R ±10% 0402 Ceramic Capacitors RoHS"
+			(at 61.468 106.172 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -15161,7 +15162,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C541464"
+		(property "LCSC" "C368809"
 			(at 62.23 99.06 0)
 			(effects
 				(font
@@ -15170,7 +15171,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402JRX7R7BB104"
+		(property "MPN" "CL05A475KP5NRNC"
 			(at 62.23 99.06 0)
 			(effects
 				(font
@@ -15179,7 +15180,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 62.23 99.06 0)
 			(effects
 				(font
@@ -15724,7 +15725,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "05b21211-adde-45f4-ade0-02ea8c67f55e")
 		(property "Reference" "C40"
 			(at 30.48 139.7 0)
@@ -15762,12 +15762,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16V 100nF X7R ±5% 0402 Ceramic Capacitors RoHS"
-			(at 26.67 140.97 0)
+		(property "Description" "10V 4.7uF X5R ±10% 0402 Ceramic Capacitors RoHS"
+			(at 25.908 146.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -15779,7 +15780,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C541464"
+		(property "LCSC" "C368809"
 			(at 26.67 140.97 0)
 			(effects
 				(font
@@ -15788,7 +15789,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402JRX7R7BB104"
+		(property "MPN" "CL05A475KP5NRNC"
 			(at 26.67 140.97 0)
 			(effects
 				(font
@@ -15797,7 +15798,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 26.67 140.97 0)
 			(effects
 				(font
@@ -16439,6 +16440,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -17133,6 +17135,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -17264,6 +17267,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -18265,6 +18269,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -19462,6 +19467,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -20166,6 +20172,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -24653,7 +24660,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4f70ee66-41ca-4ae7-b93c-70a7d8aa391d")
 		(property "Reference" "L1"
 			(at 43.18 139.7 0)
@@ -24692,11 +24698,12 @@
 			)
 		)
 		(property "Description" "0806 POLARIZED Fixed Inductors RoHS"
-			(at 41.91 140.97 0)
+			(at 40.894 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -25195,6 +25202,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -25796,6 +25804,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -25927,6 +25936,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -26058,6 +26068,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -26568,6 +26579,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -26699,6 +26711,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -28522,6 +28535,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -32793,6 +32807,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -32924,6 +32939,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -33573,6 +33589,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -34196,12 +34213,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16V 100nF X7R ±5% 0402 Ceramic Capacitors RoHS"
+		(property "Description" "10V 4.7uF X5R ±10% 0402 Ceramic Capacitors RoHS"
 			(at 60.96 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -34213,7 +34231,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C541464"
+		(property "LCSC" "C368809"
 			(at 60.96 128.27 0)
 			(effects
 				(font
@@ -34222,7 +34240,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402JRX7R7BB104"
+		(property "MPN" "CL05A475KP5NRNC"
 			(at 60.96 128.27 0)
 			(effects
 				(font
@@ -34231,7 +34249,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 60.96 128.27 0)
 			(effects
 				(font
@@ -38301,6 +38319,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -38432,6 +38451,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -39847,6 +39867,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -39973,12 +39994,13 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "16V 100nF X7R ±5% 0402 Ceramic Capacitors RoHS"
+		(property "Description" "10V 4.7uF X5R ±10% 0402 Ceramic Capacitors RoHS"
 			(at 15.24 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""
@@ -39990,7 +40012,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C541464"
+		(property "LCSC" "C368809"
 			(at 15.24 140.97 0)
 			(effects
 				(font
@@ -39999,7 +40021,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CC0402JRX7R7BB104"
+		(property "MPN" "CL05A475KP5NRNC"
 			(at 15.24 140.97 0)
 			(effects
 				(font
@@ -40008,7 +40030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "YAGEO"
+		(property "Manufacturer" "Samsung Electro-Mechanics"
 			(at 15.24 140.97 0)
 			(effects
 				(font
@@ -40481,6 +40503,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Height" ""

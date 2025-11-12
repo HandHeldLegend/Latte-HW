@@ -1,4 +1,4 @@
-### Footprint positions - created on 2025-11-03T16:20:50-0800 ###
+### Footprint positions - created on 2025-11-07T01:01:05-0800 ###
 ### Printed by KiCad version 9.0.6-rc2
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -21,6 +21,7 @@ R17       100R            R_0201_0603Metric                  74.3204   -39.5478 
 R18       100R            R_0201_0603Metric                  79.8800   -40.7000    0.0000  top
 R19       100R            R_0201_0603Metric                  65.0800   -31.3000    0.0000  top
 R20       100R            R_0201_0603Metric                  87.2000   -31.1600    0.0000  top
+REF**     HHL_Logo        HHL_Logo                           27.1272   -53.3400    0.0000  top
 RGB1      SK6805-EC-10    SK6805-EC-10                      105.1966   -48.9614    0.0000  top
 RGB2      SK6805-EC-10    SK6805-EC-10                      116.1966   -58.9614    0.0000  top
 RGB3      SK6805-EC-10    SK6805-EC-10                      105.1966   -68.9614    0.0000  top
