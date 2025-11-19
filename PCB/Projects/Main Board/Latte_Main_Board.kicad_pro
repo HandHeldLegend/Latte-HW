@@ -764,6 +764,18 @@
           "label": "Reviewed",
           "name": "Reviewed",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART_REV",
+          "name": "PART_REV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "CUI_purchase_URL",
+          "name": "CUI_purchase_URL",
+          "show": false
         }
       ],
       "filter_string": "",
