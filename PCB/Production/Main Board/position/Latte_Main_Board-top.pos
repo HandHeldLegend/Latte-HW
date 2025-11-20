@@ -1,4 +1,4 @@
-### Footprint positions - created on 2025-11-19T00:48:44-0800 ###
+### Footprint positions - created on 2025-11-20T00:12:31-0800 ###
 ### Printed by KiCad version 9.0.6-rc2
 ## Unit = mm, Angle = deg.
 ## Side : top
@@ -22,18 +22,18 @@ R18       100R               R_0201_0603Metric                  79.8800   -40.70
 R19       100R               R_0201_0603Metric                  65.0800   -31.3000    0.0000  top
 R20       100R               R_0201_0603Metric                  87.2000   -31.1600    0.0000  top
 REF**     HHL_Logo           HHL_Logo                           27.1272   -53.3400    0.0000  top
-RGB1      SK6805-EC-10       SK6805-EC-10                      105.1966   -48.9614    0.0000  top
-RGB2      SK6805-EC-10       SK6805-EC-10                      116.1966   -58.9614    0.0000  top
-RGB3      SK6805-EC-10       SK6805-EC-10                      105.1966   -68.9614    0.0000  top
-RGB4      SK6805-EC-10       SK6805-EC-10                       94.1966   -58.9614    0.0000  top
+RGB1      SK6805-EC-10       SK6805-EC-10                      105.1966   -48.8188    0.0000  top
+RGB2      SK6805-EC-10       SK6805-EC-10                      116.1966   -58.8188    0.0000  top
+RGB3      SK6805-EC-10       SK6805-EC-10                      105.1966   -68.8188    0.0000  top
+RGB4      SK6805-EC-10       SK6805-EC-10                       94.1966   -58.8188    0.0000  top
 RGB5      SK6805-EC-10       SK6805-EC-10                       81.7827   -50.1650  180.0000  top
 RGB6      SK6805-EC-10       SK6805-EC-10                       78.0327   -50.1650  180.0000  top
 RGB7      SK6805-EC-10       SK6805-EC-10                       74.2827   -50.1650  180.0000  top
 RGB8      SK6805-EC-10       SK6805-EC-10                       70.5327   -50.1650  180.0000  top
-RGB9      SK6805-EC-10       SK6805-EC-10                       47.1838   -51.3935    0.0000  top
-RGB10     SK6805-EC-10       SK6805-EC-10                       42.3652   -56.2114    0.0000  top
-RGB11     SK6805-EC-10       SK6805-EC-10                       47.1831   -61.0300    0.0000  top
-RGB12     SK6805-EC-10       SK6805-EC-10                       52.0017   -56.2122    0.0000  top
+RGB9      SK6805-EC-10       SK6805-EC-10                       47.1838   -51.2318    0.0000  top
+RGB10     SK6805-EC-10       SK6805-EC-10                       42.1894   -56.2102    0.0000  top
+RGB11     SK6805-EC-10       SK6805-EC-10                       47.1831   -61.1886    0.0000  top
+RGB12     SK6805-EC-10       SK6805-EC-10                       52.1462   -56.2102    0.0000  top
 SW1       SW_Push            KSC-TE                             76.1900   -65.5400    0.0000  top
 SW2       SW_Push            KSC-TE                             76.1900   -27.5400    0.0000  top
 SW5       SW_Push            KSC-TE                             69.1900   -37.5400    0.0000  top
