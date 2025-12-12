@@ -435,7 +435,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "hhl:HAL4395SO5"
+		(symbol "Regulator_Linear:TLV70012_SOT23-5"
 			(pin_names
 				(offset 0.254)
 			)
@@ -451,7 +451,7 @@
 				)
 			)
 			(property "Value" "HAL4395"
-				(at 0 5.08 0)
+				(at 0 5.588 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -469,7 +469,7 @@
 				)
 			)
 			(property "Datasheet" "https://www.lcsc.com/datasheet/C49165022.pdf"
-				(at 0 1.27 0)
+				(at 0.254 6.858 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -478,7 +478,7 @@
 				)
 			)
 			(property "Description" "SOT-23-5L Linear, Compass (ICs) ROHS"
-				(at 0 0 0)
+				(at 3.048 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -504,7 +504,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "HAL4395SO5_0_1"
+			(symbol "TLV70012_SOT23-5_0_1"
 				(rectangle
 					(start -5.08 4.445)
 					(end 5.08 -5.08)
@@ -517,11 +517,11 @@
 					)
 				)
 			)
-			(symbol "HAL4395SO5_1_1"
+			(symbol "TLV70012_SOT23-5_1_1"
 				(pin power_in line
 					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "IN"
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -539,14 +539,14 @@
 				(pin input line
 					(at -7.62 0 0)
 					(length 2.54)
-					(name "EN"
+					(name "~{EN}"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "3"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -564,7 +564,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -591,7 +591,7 @@
 						)
 					)
 				)
-				(pin power_out line
+				(pin output line
 					(at 7.62 2.54 180)
 					(length 2.54)
 					(name "OUT"
@@ -1890,306 +1890,6 @@
 		)
 	)
 	(symbol
-		(lib_id "hhl:HAL4395SO5")
-		(at 74.93 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ff2adb2-4758-4ed8-b5ee-9479f73bd87c")
-		(property "Reference" "U2"
-			(at 74.93 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HAL4395"
-			(at 74.93 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 74.93 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C49165022.pdf"
-			(at 74.93 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SOT-23-5L Linear, Compass (ICs) ROHS"
-			(at 74.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Confirmed" ""
-			(at 74.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPN" ""
-			(at 74.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C49165022"
-			(at 74.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 74.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "HAL4395SO5"
-			(at 74.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Hallwee"
-			(at 74.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 74.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 74.93 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "1ef14ed1-418c-4c91-aea8-3091b3029912")
-		)
-		(pin "5"
-			(uuid "fce024f8-8a84-4408-858e-ca32c092cbe2")
-		)
-		(pin "1"
-			(uuid "be0a5a38-1c20-4e5a-ba8f-21325ba90411")
-		)
-		(pin "4"
-			(uuid "a37e9a14-65bd-480b-9f8e-014356b7b341")
-		)
-		(pin "2"
-			(uuid "5914f19b-bf8c-4700-943d-f0824366c9dd")
-		)
-		(instances
-			(project "FPC_Trigger_Board"
-				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "hhl:HAL4395SO5")
-		(at 114.3 58.42 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2cc56727-f677-403d-be95-cfbe0833bf87")
-		(property "Reference" "U3"
-			(at 114.3 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "HAL4395"
-			(at 114.3 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 114.3 50.165 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C49165022.pdf"
-			(at 114.3 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "SOT-23-5L Linear, Compass (ICs) ROHS"
-			(at 114.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Confirmed" ""
-			(at 114.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPN" ""
-			(at 114.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C49165022"
-			(at 114.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 114.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "HAL4395SO5"
-			(at 114.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Hallwee"
-			(at 114.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Package" ""
-			(at 114.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Price" ""
-			(at 114.3 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "3753c794-2f4f-4d80-8bf3-12e6674129a8")
-		)
-		(pin "5"
-			(uuid "f4d22654-b44d-419e-95a1-ef17514923d1")
-		)
-		(pin "1"
-			(uuid "3dd9b1b4-6773-4e0b-8e93-37c552976cac")
-		)
-		(pin "4"
-			(uuid "e520ddce-8313-48fa-b70c-54ec3e228f60")
-		)
-		(pin "2"
-			(uuid "c6f92b55-d9b4-494f-99f2-98fe8f3ee57c")
-		)
-		(instances
-			(project "FPC_Trigger_Board"
-				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 139.7 59.69 180)
 		(unit 1)
@@ -2473,6 +2173,147 @@
 			(project ""
 				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV70012_SOT23-5")
+		(at 35.56 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "46f4cd39-f289-498b-b9b7-ca3fc586acea")
+		(property "Reference" "U1"
+			(at 35.56 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HAL4395"
+			(at 35.56 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hhl:SOT-23-5L"
+			(at 35.56 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49165022.pdf"
+			(at 35.814 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-23-5L Linear, Compass (ICs) ROHS"
+			(at 38.608 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 35.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49165022"
+			(at 35.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HAL4395SO5"
+			(at 35.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hallwee"
+			(at 35.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 35.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 35.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 35.56 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e3a1f444-3593-430f-b701-f54cc9b3619a")
+		)
+		(pin "5"
+			(uuid "8ad5674c-0e4f-45e8-88e0-5187e528ce0e")
+		)
+		(pin "1"
+			(uuid "9d7dd088-22f2-4f6d-9ef8-5d135a07f8a9")
+		)
+		(pin "3"
+			(uuid "1f5470f3-3223-4d38-b00d-4ccb80d2a500")
+		)
+		(pin "4"
+			(uuid "35453cae-2f21-4af5-90fc-6d1bb56da356")
+		)
+		(instances
+			(project "FPC_Trigger_Board"
+				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3279,17 +3120,17 @@
 		)
 	)
 	(symbol
-		(lib_id "hhl:HAL4395SO5")
-		(at 35.56 58.42 0)
+		(lib_id "Regulator_Linear:TLV70012_SOT23-5")
+		(at 114.3 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c74245d1-e4e7-41b0-8a2d-6b0c22e562e2")
-		(property "Reference" "U1"
-			(at 35.56 49.53 0)
+		(uuid "cc4b7b69-59c5-4ca2-b767-fed3309d67f8")
+		(property "Reference" "U3"
+			(at 114.3 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,15 +3138,15 @@
 			)
 		)
 		(property "Value" "HAL4395"
-			(at 35.56 52.07 0)
+			(at 114.3 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 35.56 50.165 0)
+		(property "Footprint" "hhl:SOT-23-5L"
+			(at 114.3 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,7 +3156,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C49165022.pdf"
-			(at 35.56 57.15 0)
+			(at 114.554 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,7 +3165,7 @@
 			)
 		)
 		(property "Description" "SOT-23-5L Linear, Compass (ICs) ROHS"
-			(at 35.56 58.42 0)
+			(at 117.348 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3332,17 +3173,8 @@
 				(hide yes)
 			)
 		)
-		(property "Confirmed" ""
-			(at 35.56 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPN" ""
-			(at 35.56 58.42 0)
+		(property "Height" ""
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3351,16 +3183,7 @@
 			)
 		)
 		(property "LCSC" "C49165022"
-			(at 35.56 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 35.56 58.42 0)
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3369,7 +3192,7 @@
 			)
 		)
 		(property "MPN" "HAL4395SO5"
-			(at 35.56 58.42 0)
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3378,7 +3201,7 @@
 			)
 		)
 		(property "Manufacturer" "Hallwee"
-			(at 35.56 58.42 0)
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3386,8 +3209,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 35.56 58.42 0)
+		(property "Manufacturer_Name" ""
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3395,8 +3218,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 35.56 58.42 0)
+		(property "Mouser Part Number" ""
+			(at 114.3 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3404,42 +3227,51 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "43982b5f-7628-4d71-9e53-249b186d2d76")
-		)
-		(pin "5"
-			(uuid "8284a2fa-e34b-4409-b37d-c527a7865111")
-		)
-		(pin "1"
-			(uuid "6eb6f9a9-a749-44c0-af39-2115d16f35ff")
-		)
-		(pin "4"
-			(uuid "1518d263-9b87-48ef-83eb-a3a23ea8c578")
+		(property "Mouser Price/Stock" ""
+			(at 114.3 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "83e22d4f-6923-4401-9058-0bff2efbe5c0")
+			(uuid "d5c24a5e-ec85-4017-806f-36770686abc5")
+		)
+		(pin "5"
+			(uuid "e6dc7607-2801-492d-aceb-8f1d1eeaa956")
+		)
+		(pin "1"
+			(uuid "6d41ad08-66ed-4a33-a55e-2e9fadaaebe2")
+		)
+		(pin "3"
+			(uuid "38f2aba6-97ce-45fe-9215-6457b7ecab92")
+		)
+		(pin "4"
+			(uuid "5a580a09-40f5-44fe-80f3-3af7b32451b9")
 		)
 		(instances
-			(project ""
+			(project "FPC_Trigger_Board"
 				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "hhl:HAL4395SO5")
-		(at 153.67 58.42 0)
+		(lib_id "Regulator_Linear:TLV70012_SOT23-5")
+		(at 74.93 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c7d2cb34-8ea2-4661-9944-7f73fa8bc0c6")
-		(property "Reference" "U4"
-			(at 153.67 49.53 0)
+		(uuid "cf3f0e88-7c1f-4067-9a05-792514158d23")
+		(property "Reference" "U2"
+			(at 74.93 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3447,15 +3279,15 @@
 			)
 		)
 		(property "Value" "HAL4395"
-			(at 153.67 52.07 0)
+			(at 74.93 52.832 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 153.67 50.165 0)
+		(property "Footprint" "hhl:SOT-23-5L"
+			(at 74.93 50.165 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3465,7 +3297,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/C49165022.pdf"
-			(at 153.67 57.15 0)
+			(at 75.184 51.562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3474,7 +3306,7 @@
 			)
 		)
 		(property "Description" "SOT-23-5L Linear, Compass (ICs) ROHS"
-			(at 153.67 58.42 0)
+			(at 77.978 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3482,17 +3314,8 @@
 				(hide yes)
 			)
 		)
-		(property "Confirmed" ""
-			(at 153.67 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPN" ""
-			(at 153.67 58.42 0)
+		(property "Height" ""
+			(at 74.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3501,16 +3324,7 @@
 			)
 		)
 		(property "LCSC" "C49165022"
-			(at 153.67 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Link" ""
-			(at 153.67 58.42 0)
+			(at 74.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3519,7 +3333,7 @@
 			)
 		)
 		(property "MPN" "HAL4395SO5"
-			(at 153.67 58.42 0)
+			(at 74.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3528,7 +3342,7 @@
 			)
 		)
 		(property "Manufacturer" "Hallwee"
-			(at 153.67 58.42 0)
+			(at 74.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3536,8 +3350,8 @@
 				(hide yes)
 			)
 		)
-		(property "Package" ""
-			(at 153.67 58.42 0)
+		(property "Manufacturer_Name" ""
+			(at 74.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3545,8 +3359,8 @@
 				(hide yes)
 			)
 		)
-		(property "Price" ""
-			(at 153.67 58.42 0)
+		(property "Mouser Part Number" ""
+			(at 74.93 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3554,25 +3368,34 @@
 				(hide yes)
 			)
 		)
-		(pin "3"
-			(uuid "20add1aa-ae63-4234-807c-fd76277326a3")
-		)
-		(pin "5"
-			(uuid "d66bc8bf-285b-4f6e-8d62-28b1b16abe79")
-		)
-		(pin "1"
-			(uuid "1e8a906c-8449-4494-a445-7e05c3859f1e")
-		)
-		(pin "4"
-			(uuid "9338d2b6-91ce-4346-b1ff-375363e396d7")
+		(property "Mouser Price/Stock" ""
+			(at 74.93 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "2"
-			(uuid "a6c27519-d158-4f50-8e8b-32a8b30bafa3")
+			(uuid "64b5c7bc-4e15-4400-85fb-0204a482ba13")
+		)
+		(pin "5"
+			(uuid "b7bc7001-f481-454c-ba4b-d386f85f1363")
+		)
+		(pin "1"
+			(uuid "02c2671f-8f5f-439f-bd5a-6d4b4ffb1b12")
+		)
+		(pin "3"
+			(uuid "aba5f77b-4b97-4fda-994d-17f7fc608dc2")
+		)
+		(pin "4"
+			(uuid "5820116a-dd80-49ad-a91c-be271871cb5b")
 		)
 		(instances
 			(project "FPC_Trigger_Board"
 				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
-					(reference "U4")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -3768,6 +3591,147 @@
 			(project "FPC_Trigger_Board"
 				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:TLV70012_SOT23-5")
+		(at 153.67 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1b5d6ba-7cfb-42c8-bcb4-508b824756df")
+		(property "Reference" "U4"
+			(at 153.67 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "HAL4395"
+			(at 153.67 52.832 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "hhl:SOT-23-5L"
+			(at 153.67 50.165 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C49165022.pdf"
+			(at 153.924 51.562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SOT-23-5L Linear, Compass (ICs) ROHS"
+			(at 156.718 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C49165022"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "HAL4395SO5"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Hallwee"
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" ""
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 153.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1c41832a-a2c1-40dc-8124-293a9b575175")
+		)
+		(pin "5"
+			(uuid "fd343d2b-6300-4d76-821c-238918585c8a")
+		)
+		(pin "1"
+			(uuid "5a14ad1f-e572-4310-9251-d8c41f95f1f8")
+		)
+		(pin "3"
+			(uuid "a5eb7b8b-50f1-46a4-a0a2-e24c7c748016")
+		)
+		(pin "4"
+			(uuid "d3574d69-e855-4d76-abac-5dd40630d82b")
+		)
+		(instances
+			(project "FPC_Trigger_Board"
+				(path "/0ea62352-365c-4f6f-aa9e-f2b7bb50112a"
+					(reference "U4")
 					(unit 1)
 				)
 			)
