@@ -6632,6 +6632,12 @@
 		(uuid "897b878d-c1bd-4eeb-8045-6657baf04241")
 	)
 	(junction
+		(at 25.4 252.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8be8200a-bdcc-4d1e-9b63-cfbef7f99fe7")
+	)
+	(junction
 		(at 15.24 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6780,6 +6786,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7ac36eb-cd3a-4158-a352-daeebe865d0e")
+	)
+	(junction
+		(at 25.4 278.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d82635b1-e8d2-459e-8cd9-bde896880702")
 	)
 	(junction
 		(at 250.19 46.99)
@@ -7811,7 +7823,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 252.73) (xy 26.67 252.73)
+			(xy 24.13 252.73) (xy 25.4 252.73)
 		)
 		(stroke
 			(width 0)
@@ -8301,6 +8313,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 252.73) (xy 26.67 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42c7075d-aac5-4a99-b323-b085eede7179")
+	)
+	(wire
+		(pts
 			(xy 143.51 205.74) (xy 142.24 205.74)
 		)
 		(stroke
@@ -8378,6 +8400,16 @@
 			(type default)
 		)
 		(uuid "4875bf21-52a8-4680-8b15-a3ac21a7d750")
+	)
+	(wire
+		(pts
+			(xy 25.4 278.13) (xy 26.67 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49712a9a-99e7-406a-bf56-aaa06d6026d2")
 	)
 	(wire
 		(pts
@@ -10891,7 +10923,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 278.13) (xy 26.67 278.13)
+			(xy 24.13 278.13) (xy 25.4 278.13)
 		)
 		(stroke
 			(width 0)
@@ -19915,6 +19947,71 @@
 			(project "Latte_Main_Board"
 				(path "/e225eb3e-e7d7-4a30-a02a-c99a852af5d1"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 278.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "230fea37-6db5-4b70-b3c5-4fe911e31f94")
+		(property "Reference" "#PWR094"
+			(at 25.4 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 283.21 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 278.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9646e608-cd70-4e96-986a-8a257a73b9f0")
+		)
+		(instances
+			(project "Latte_Main_Board"
+				(path "/e225eb3e-e7d7-4a30-a02a-c99a852af5d1"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -39722,6 +39819,71 @@
 			(project "Latte_Main_Board"
 				(path "/e225eb3e-e7d7-4a30-a02a-c99a852af5d1"
 					(reference "R30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 25.4 252.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eaf0cd4c-439b-4a26-9f64-3dfa43c6740d")
+		(property "Reference" "#PWR093"
+			(at 25.4 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 25.4 257.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 25.4 252.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dadecbd4-ad6d-4c6f-b34a-ac325f4ccdff")
+		)
+		(instances
+			(project "Latte_Main_Board"
+				(path "/e225eb3e-e7d7-4a30-a02a-c99a852af5d1"
+					(reference "#PWR093")
 					(unit 1)
 				)
 			)
